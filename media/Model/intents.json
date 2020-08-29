@@ -1,0 +1,39 @@
+{"intents": [
+    {
+        "tag": "greeting",
+        "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "Xin chào", "hú", "ê", "alo"],
+        "responses": ["Tao đây mày cần gì", "Xin chào bạn"]
+        
+    },
+    {
+        "tag":"nane",
+        "patterns":["What is your name?", "name", "tên", "tên mày là gì?"],
+        "responses":["Tên tôi là Nghiêm đẹp trai"]
+    },
+    {
+        "tag": "suc khoe",
+        "patterns": ["Bạn khỏe không", "Dạo này thế nào?", "Ổn chứ?", "how are you"],
+        "responses": ["Tao khỏe", "Ổn lắm"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "tạm biệt", "cút", "biến"],
+        "responses": ["Tạm biệt hẹn gặp lại", "Bye!", "Bye! See you a gain."]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "cảm ơn"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "Không có gì"]
+    },
+    {
+        "tag":"bieu cam",
+        "patterns":["haha", "ha ha","hahaha", "hahahda", "hứ", "kệ m", "kệ bạn", "kệ t", "hihi"],
+        "responses":["<3"]
+    },
+    {
+        "tag":"icon",
+        "patterns":[":)", ":(", "<3", ":P", ":D", ":v"],
+        "responses":["<3"]
+    }
+]
+}

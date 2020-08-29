@@ -1,0 +1,1 @@
+web: gunicorn fb_chatbot.wsgi --log-file -
