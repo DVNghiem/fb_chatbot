@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 't^vf40z82&3aou-a*l#&#9d+k4usls*067+93-b$39kgys7_(-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['cd90e762529a.ngrok.io']
+ALLOWED_HOSTS = ['fb-chatbot-nghiem.herokuapp.com']
 
 
 # Application definition
