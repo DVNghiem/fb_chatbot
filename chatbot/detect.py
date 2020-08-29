@@ -6,7 +6,7 @@ from keras.models import load_model
 import json
 import random
 from .models import ChatBot
-nltk.download('wordnet')
+# nltk.download('wordnet')
 lemmatizer = WordNetLemmatizer()
 
 def load_dataset():
